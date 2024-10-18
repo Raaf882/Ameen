@@ -1,0 +1,339 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_empNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_accountingInfo",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "addEmployee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum InvoiceData.InvoiceType",
+						"name": "_invoiceType",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountPaid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_productNames",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_pricesBeforeTax",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_taxes",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_pricesAfterTax",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_totalBeforeTax",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_totalTax",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_totalWithTax",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_taxInvoiceCode",
+						"type": "string"
+					}
+				],
+				"name": "createInvoice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "empData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "empNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "accountingInfo",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_empNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "getEmployeeInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "invoiceCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "invoices",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum InvoiceData.InvoiceType",
+						"name": "invoiceType",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountPaid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalBeforeTax",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalTax",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalWithTax",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "taxInvoiceCode",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_clientId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_clientName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_taxNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_postalCode",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_clientIdString",
+						"type": "string"
+					}
+				],
+				"name": "saveClient",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_companyId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_companyName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_taxNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_postalCode",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_ownerId",
+						"type": "string"
+					}
+				],
+				"name": "saveCompany",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NewIn.sol": "InvoiceData"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NewIn.sol": {
+			"keccak256": "0x36b60e89852917ee799f1745d69ffd92fa0f836b96a3cf23bce4a541d2ed277f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://74c65afbc96580c4da370a51a77e198c0abae693a1370b768aac93e6d157e39b",
+				"dweb:/ipfs/QmS7UvrTqqaU4uLQy5sxqiPcjK8eocxNmr48ft4V13agWk"
+			]
+		}
+	},
+	"version": 1
+}
