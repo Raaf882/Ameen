@@ -312,7 +312,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/NewIn.sol": "InvoiceData"
+			"contracts/InvoiceData.sol": "InvoiceData"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -326,12 +326,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/NewIn.sol": {
-			"keccak256": "0x36b60e89852917ee799f1745d69ffd92fa0f836b96a3cf23bce4a541d2ed277f",
+		"contracts/InvoiceData.sol": {
+			"keccak256": "0x557af91f8948661395de9dd1401fc77e9e202652a937bf9d7fca4a38407dc0e0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://74c65afbc96580c4da370a51a77e198c0abae693a1370b768aac93e6d157e39b",
-				"dweb:/ipfs/QmS7UvrTqqaU4uLQy5sxqiPcjK8eocxNmr48ft4V13agWk"
+				"bzz-raw://e6714965cf314bed3332d280a4674b9af4306eb3e767f0d2bcd9dfe9f7e2939d",
+				"dweb:/ipfs/QmYfJkKxRpz8XWjx7GFT5n2euEDwse21wZUJYkBN293yZE"
 			]
 		}
 	},
