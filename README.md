@@ -1,7 +1,7 @@
 # امين
 <p align="center">امانك المالي يبدأ هنا</p>
 <p align="center">
-<image src="C:\Users\Rahaf\Downloads\WhatsApp_Image_2024-10-18_at_10.48.36_PM-removebg-preview.png"></p>
+<image src="https://github.com/Raaf882/Ameen/blob/main/ameen%20logo.png"></p>
 
 
 ## امين
