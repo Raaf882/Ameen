@@ -1,4 +1,4 @@
-# امين
+# Ameen
 <p align="center">امانك المالي يبدأ هنا</p>
 <p align="center">
 <image src="C:\Users\Rahaf\Downloads\WhatsApp_Image_2024-10-18_at_10.48.36_PM-removebg-preview.png"></p>
